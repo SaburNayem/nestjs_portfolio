@@ -1,0 +1,19 @@
+﻿Sabur Nayem
+Flutter Mobile App Developer
+
+Summary
+- Flutter developer focused on clean architecture, scalable mobile UX, and NestJS backend integration.
+
+Core Skills
+- Flutter, Dart, State Management (Riverpod/BLoC)
+- NestJS, Node.js, REST API
+- Firebase, MongoDB, PostgreSQL
+- Git, Docker, Figma, Postman
+
+Experience
+- Freelance Flutter Developer (2025 - Present)
+- Mobile Developer Intern (2024 - 2025)
+
+Contact
+- Email: sabur.dev@example.com
+- Phone: +1 555 010 0091
