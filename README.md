@@ -1,32 +1,18 @@
-﻿# NestJS + Next.js Flutter Developer Portfolio
+﻿# NestJS Portfolio Backend
 
-Full-stack developer portfolio with:
-- NestJS backend API + admin authentication
-- Next.js frontend with modern Flutter-focused design
-- PostgreSQL-ready TypeORM models
-- Contact form persistence, blog, testimonials, and project management
+This repository now runs as a NestJS backend-only project.
 
-## Quick Start
+## Run
 
-1. Install dependencies:
 ```bash
+cd apps/backend
 npm install
-```
-
-2. Configure backend env:
-```bash
-cp apps/backend/.env.example apps/backend/.env
-```
-
-3. Run both apps:
-```bash
+cp .env.example .env
 npm run dev
 ```
 
-- Frontend: http://localhost:3000
-- Backend: http://localhost:4000/api
-- Admin seed route (dev): POST http://localhost:4000/api/seed/bootstrap
+API base: `http://localhost:4000/api`
 
-Default admin (from seed):
-- email: admin@flutterfolio.dev
-- password: Admin@12345
+## Seed demo data
+
+`POST /api/seed/bootstrap`
