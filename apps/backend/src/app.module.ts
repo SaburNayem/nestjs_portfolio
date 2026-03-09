@@ -10,6 +10,7 @@ import { ProjectsModule } from './projects/projects.module';
 import { SeedModule } from './seed/seed.module';
 import { SkillsModule } from './skills/skills.module';
 import { TestimonialsModule } from './testimonials/testimonials.module';
+import { VisualizationModule } from './visualization/visualization.module';
 
 @Module({
   imports: [
@@ -48,6 +49,7 @@ import { TestimonialsModule } from './testimonials/testimonials.module';
     TestimonialsModule,
     ContactsModule,
     SeedModule,
+    VisualizationModule,
   ],
   providers: [
     {
